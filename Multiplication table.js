@@ -6,12 +6,12 @@ function Multiplication (x) {
 	var result = '';
 	var resultc = '';
 	for (var i = 1; i <= 10; i++) {
-		for (var j = i; j <= 10; j++) {
+		for (var j = 2; j <= 10; j++) {
 		total = x* j;
-		result += total + '\n';
+		result += total + " " + '\v';
 		}
 		total = x* i;
-		result += total + " ";
+		result += total + '\n';
 	}
 	return result + resultc;
 }
