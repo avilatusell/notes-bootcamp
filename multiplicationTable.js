@@ -6,10 +6,12 @@ function multiplicationTable () {
 	
 	for ( var j = 0; j < 10; j++) {
 		for ( var i = 0; i < 10; i++ ) {
-			result += i*j + " ";
+			result += (i+10) * (j+10) + " " +"\t" ;
 		}
 		result += "\n";
 	}
 	return result;
 	
 }
+
+console.log(multiplicationTable());
