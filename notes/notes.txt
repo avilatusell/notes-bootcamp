@@ -18,9 +18,10 @@ https://try.github.io/levels/1/challenges/1
 - Ejercicios Functions (p.44)
 - Ejercicios Arrays (p.46) //PRIORIDAD
 - Closure (p.30)
-- http://javascript.didacto.net/ acabar els exercicis. Ens hem quedat a Fibonacci.
+- http://javascript.didacto.net/ acabar els exercicis. Ens hem quedat a Fibonacci. http://javascript.didacto.net/tutorials/numbers
 - acabar maxOfThree con TDD
-- - cata slide 55
+- cata slide 55
+- http://reactivex.io/learnrx/
 
 
 
