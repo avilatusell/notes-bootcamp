@@ -6,7 +6,7 @@ function multiplicationTable () {
 	
 	for ( var j = 0; j < 10; j++) {
 		for ( var i = 0; i < 10; i++ ) {
-			result += (i+10) * (j+10) + " " +"\t" ;
+			result += (i+1) * (j+1) + " " +"\t" ;
 		}
 		result += "\n";
 	}

@@ -1,0 +1,19 @@
+
+cuando testeamos algo tenemos que hacer cada test independiente.
+Tenemos que generar un objeto que parta de 0.
+Si utilizamos el objeto de la función, cada vez que hacemos el test tendrá un contenido diferente y no partirá del mismo inicio.
+Por tanto en cada test generamos un nuevo objeto con una función:
+
+function createObject() {
+	
+var myGenericObject = {
+  player1: 0,
+  player2: 0,
+  rockPaperScissors : function() {...},
+  winner: function() {...}
+}
+
+retunr myGenericObject;
+
+En cada "it" llamamos la función para comprobar los valores:
+var game = createObject();
